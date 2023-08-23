@@ -18,7 +18,7 @@ def ussd_callback():
 #if their is no request/response it means he/she is in the main menu
     if text == '':
         response  = "CON Hello and welcome to E-shamba. Are you an active user? \n"
-        response += "1. YES"
+        response += "1. YES\n"
         response += "2. NO"
 
 
@@ -30,7 +30,7 @@ def ussd_callback():
 
 
 
-    elif text == '1* 205':
+    elif text == '1*205':
         response = "CON Hello and Welcome " +unique +" what do you want to access?"
         response += "1.Current temp"
         response += "2.Current humidity"
