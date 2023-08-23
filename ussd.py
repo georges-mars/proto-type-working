@@ -32,15 +32,15 @@ def ussd_callback():
 
     elif text == '1*205':
         response = "CON Hello and Welcome " +unique +" what do you want to access?"
-        response += "1.Current temp"
-        response += "2.Current humidity"
-        response += "3.Current light intensity"
-        response += "4.Current pH Level"
-        response += "5.Current fertility level"
-        response += "6.Current soil moisture content"
+        response += "1.Current temp\n"
+        response += "2.Current humidity\n"
+        response += "3.Current light intensity\n"
+        response += "4.Current pH Level\n"
+        response += "5.Current fertility level\n"
+        response += "6.Current soil moisture content\n"
 
     elif text == '2':
-        response ="END your unique ID is located on the Left hand side of your device. Kindly go back to the main menu And input yes then insert that unique ID "
+        response ="END your unique ID is located on the Left hand side of your device. Kindly go back to the main menu And input yes then insert that unique ID."
         
 
     elif text == '1*205*1':
