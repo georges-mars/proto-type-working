@@ -51,7 +51,7 @@ def ussd_callback():
 
     elif text == '1*205*2':
         humidity ='68.5'
-        response = "END Your Humidity is " + humidity+" This humidity is too low for your plants. We suggest you set up a green house around the plant or switch to crops such as fruitnuts, watermellon which can thrive perfectly in our farm under this humidity."
+        response = "END Your Humidity is " + humidity+" This humidity is too low for your plants. E-Shamba suggest you set up a green house around the plant or switch to crops such as fruitnuts, watermellon which can thrive perfectly in our farm under this humidity."
 
     elif text == '1*205*3':
         lght='20%'
